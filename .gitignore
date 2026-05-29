@@ -1,0 +1,8 @@
+# secrets
+**/.env
+**/auth.json
+**/*.db
+**/logs/
+**/sessions/
+**/audio_cache/
+**/cache/

@@ -1,0 +1,67 @@
+{
+  "academic-paper-review-and-citation-audit": {
+    "archived_at": null,
+    "created_at": "2026-05-29T06:34:58.533753+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-05-29T06:44:09.442163+00:00",
+    "last_used_at": "2026-05-29T06:48:07.244787+00:00",
+    "last_viewed_at": "2026-05-29T06:48:07.238620+00:00",
+    "patch_count": 6,
+    "pinned": false,
+    "state": "active",
+    "use_count": 3,
+    "view_count": 3
+  },
+  "help": {
+    "archived_at": null,
+    "created_at": "2026-05-14T01:16:04.654959+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-05-26T04:11:43.450663+00:00",
+    "last_viewed_at": "2026-05-26T04:11:43.440660+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 2,
+    "view_count": 2
+  },
+  "jan-log-maintenance-ml-loop": {
+    "archived_at": null,
+    "created_at": "2026-05-14T01:28:23.678375+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-05-29T05:28:16.200088+00:00",
+    "last_used_at": "2026-05-29T05:28:07.571115+00:00",
+    "last_viewed_at": "2026-05-29T05:28:07.569020+00:00",
+    "patch_count": 121,
+    "pinned": false,
+    "state": "active",
+    "use_count": 70,
+    "view_count": 70
+  },
+  "mfc-dialog-feature-implementation": {
+    "archived_at": null,
+    "created_at": "2026-05-19T00:39:46.095360+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-05-28T05:51:57.068281+00:00",
+    "last_used_at": "2026-05-29T06:48:08.246952+00:00",
+    "last_viewed_at": "2026-05-29T06:48:07.226519+00:00",
+    "patch_count": 94,
+    "pinned": false,
+    "state": "active",
+    "use_count": 44,
+    "view_count": 44
+  },
+  "mlops/jan-log-maintenance-ml-loop": {
+    "archived_at": null,
+    "created_at": "2026-05-28T04:55:46.126002+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-05-28T04:55:46.126002+00:00",
+    "last_viewed_at": "2026-05-28T04:55:46.126002+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "last_report_path": "C:\\Users\\yjs\\AppData\\Local\\hermes\\logs\\curator\\20260529-064749",
+  "last_run_at": "2026-05-29T06:47:49.627062+00:00",
+  "last_run_duration_seconds": 27.753122,
+  "last_run_summary": "auto: no changes; llm: Completed. I ran a full umbrella-consolidation pass on the provided **agent-created** candidate set (2 skills), applying the class-level standard you specified.\n\n### What I processed\nI reviewed both skills’ full SKILL.md bodies and support-…",
+  "last_run_summary_shown_at": "2026-05-22T00:32:53.773044+00:00",
+  "paused": false,
+  "run_count": 2
+}
