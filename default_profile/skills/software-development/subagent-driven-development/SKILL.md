@@ -278,6 +278,7 @@ JAN policy-file convention observed in-session:
 - `C:/Users/yjs/Desktop/JAN/Policy/subagent_planner_jenni.md`
 - `C:/Users/yjs/Desktop/JAN/Policy/subagent_qa_lucy.md`
 - `C:/Users/yjs/Desktop/JAN/Policy/subagent_designer_hiyuki.md`
+- `C:/Users/yjs/Desktop/JAN/Policy/subagent_document_reviewer_lynae.md`
 
 ## Policy Pack Deployment for Subagents (Windows brownfield projects)
 
