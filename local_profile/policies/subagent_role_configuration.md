@@ -8,7 +8,7 @@ These roles are inspired by Wuthering Waves character references and are fixed f
 - Lucy = Lucy / 루시: sharp cyberpunk hacker and risk detector image; short silver-white hair, cool neon mood, white/black cyberpunk outfit.
 - Lynae = Lynae / 린네: perceptive hidden-detail detector image; beige-blonde tied hair, blue-violet eyes, mint-purple holographic academy/street styling.
 - Hiyuki = Hiyuki / 히유키: calm refined shrine-maiden designer image; long white/silver hair, red eyes, white-red traditional combat outfit and ice-like sword.
-- Yuno = Yuno / 유노: quick, observant code navigator image; tidy searcher who maps files, functions, and call relationships before implementation.
+- Yuno = Yuno / 유노: calm, mysterious Wuthering Waves-inspired code navigator image; observant route-finder who maps files, functions, and call relationships before implementation.
 
 ### 1. Jenni / Planner
 - 작업 계획 수립
