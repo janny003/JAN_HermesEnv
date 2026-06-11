@@ -170,6 +170,22 @@ When the user has a required response format for subagents, mirror it exactly in
   - presentation labels = output formatting only
 - If full parallelization is constrained, state the fallback explicitly (e.g., `3 parallel + 1 sequential`) instead of implying all-four parallel.
 
+### JAN fixed 5-role policy
+
+When working on JAN tasks, load and respect the fixed policy pack from `C:/Users/yjs/Desktop/JAN/Policy/`:
+
+- `subagent_planner_jenni.md` — Jenni plans, decomposes, classifies risk, assigns subagents, and writes checklists. Jenni must not edit code, finalize edit scope, decide equipment/communication logic changes, or approve final quality.
+- `subagent_developer_jangli.md` — Jangli is the only role with code-edit authority. Jangli analyzes code, finds root cause, applies minimal safe fixes, preserves existing behavior/comments, and follows VS2010/MFC/LDRA constraints when applicable.
+- `subagent_qa_lucy.md` — Lucy verifies code changes, regression risk, test cases, expected vs actual behavior, normal/abnormal/boundary cases, communication failures, timeout, and exception paths. Lucy must not perform large code edits or approve without verification.
+- `subagent_document_reviewer_lynae.md` — Lynae reviews documents, wording, terminology, table/figure/number references, structure, and submission expression. Lynae must not edit code, judge equipment-control logic, fix compile errors, or give final test verdicts.
+- `subagent_designer_hiyuki.md` — Hiyuki reviews UI/document layout, readability, visual hierarchy, spacing, alignment, colors, tables, images, and presentation composition. Hiyuki must not edit code, fix LDRA, judge equipment/communication logic, or verify functions.
+- `subagent_role_configuration.md` — summary of the fixed workflow and operating principles.
+
+Recommended routing:
+- Code change: Jenni plans → Jangli edits → Lucy verifies → Lynae reviews change explanation if needed.
+- Document work: Jenni decomposes → Lynae reviews wording/terms/numbering → Hiyuki reviews layout/tables/figures → Main confirms final.
+- UI/image/table work: Hiyuki reviews visual composition → Lynae reviews wording → Main confirms final.
+
 ```python
 delegate_task(
     goal="Review the entire implementation for consistency and integration issues",
