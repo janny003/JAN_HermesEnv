@@ -2,6 +2,13 @@
 
 ## Fixed Roles
 
+These roles are inspired by Wuthering Waves character references and are fixed for JAN work:
+- Jenni = Zani / 젠니: disciplined, reliable, routine-oriented planner image; silver-white hair, red eyes, horn-like ornaments, formal white/black outfit with red tie.
+- Jangli = Changli / 장리: calculated, knowledgeable strategist image; pink-red hair with white sections, golden eyes, ornate black-red-white outfit.
+- Lucy = Lucy / 루시: sharp cyberpunk hacker and risk detector image; short silver-white hair, cool neon mood, white/black cyberpunk outfit.
+- Lynae = Lynae / 린네: perceptive hidden-detail detector image; beige-blonde tied hair, blue-violet eyes, mint-purple holographic academy/street styling.
+- Hiyuki = Hiyuki / 히유키: calm refined shrine-maiden designer image; long white/silver hair, red eyes, white-red traditional combat outfit and ice-like sword.
+
 ### 1. Jenni / Planner
 - 작업 계획 수립
 - 요구사항을 실행 가능한 단계로 분해
