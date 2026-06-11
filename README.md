@@ -30,3 +30,27 @@ Hermes agent environment snapshot for reuse on other machines.
    - `hermes doctor`
 
 For Windows local layout variant, use files under `local_profile/` similarly.
+
+## JAN fixed subagent roles
+
+The JAN subagent roster is fixed to five roles only:
+
+| Role | Responsibility | Hard boundary |
+| --- | --- | --- |
+| Jenni / Planner | Planning, task decomposition, risk classification, dispatch, checklist | No code edits, no final technical approval |
+| Jangli / Developer | Code analysis and code modification | Only Jangli may edit code |
+| Lucy / QA | Code verification, regression risk, test cases, expected vs actual checks | No large code edits, no unverified final approval |
+| Lynae / Document Reviewer | Document wording, terminology, numbering, table/figure references | No code edits, no equipment-control judgment |
+| Hiyuki / Designer | UI/document layout, readability, spacing, alignment, visual hierarchy | No code edits, no functional verification |
+
+Yuno is not part of the JAN subagent roster.
+
+Policy source files:
+- `default_profile/policies/subagent_role_configuration.md`
+- `default_profile/policies/subagent_planner_jenni.md`
+- `default_profile/policies/subagent_developer_jangli.md`
+- `default_profile/policies/subagent_qa_lucy.md`
+- `default_profile/policies/subagent_document_reviewer_lynae.md`
+- `default_profile/policies/subagent_designer_hiyuki.md`
+
+The same files are mirrored under `local_profile/policies/`.
